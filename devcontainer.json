@@ -1,0 +1,9 @@
+{
+  "name": "C++ Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools"
+  ],
+  "postCreateCommand": "sudo apt update && sudo apt install -y build-essential"
+}
